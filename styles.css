@@ -2,14 +2,36 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14pt;
 }
-.addItem {
+input[type=text] {
     border-radius: 4px;
+    width:450px;
+    margin:0px;
+    box-sizing: border-box;
+    padding-bottom: 15px;
+    font-size: 14pt;
 }
 
+input[type=button] {
+    font-size: 14pt;
+    height: 40px;
+    text-align: center;
+    margin:auto;
+}
+
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
 ul {
     margin: 0;
     padding: 5px;
     list-style-type:none;
     position: relative;
     text-transform: capitalize;
+    
+}
+
+.categories {
+    width: 500px;
+    text-align: center;
 }

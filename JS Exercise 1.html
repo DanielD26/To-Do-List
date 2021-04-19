@@ -6,9 +6,15 @@
     <link rel="stylesheet" type="text/css" href="styles.css"/>
 </head>
 <body>
-    <div>
+    <div class="container">
         <input type="text" placeholder="New item..." id="addItem">
         <input type="button" onclick="newItem()" value="Add" id="newItem">
+        <br>
+        <select name="categories" id="categories" class="categories">
+            <option value="food">Food</option>
+            <option value="shopping">Shopping</option>
+            <option value="misc">Misc</option>
+        </select>
     </div>
     <div>
         <ul id="list">

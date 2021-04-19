@@ -5,7 +5,5 @@ function newItem() {
   li.appendChild(t);
   document.getElementById("list").appendChild(li);
   document.getElementById("addItem").value = "";
-  
-
-    
+   
 }
